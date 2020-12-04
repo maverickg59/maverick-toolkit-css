@@ -1,0 +1,13 @@
+.u-border {
+  border: 1px solid $color-darkgray;
+}
+.u-border-bot {
+  border-bottom: 1px solid $color-darkgray;
+}
+.u-border-top {
+  border-top: 1px solid $color-darkgray;
+}
+.u-border-radius {
+  border: 0.5px solid transparent;
+  border-radius: 10px;
+}

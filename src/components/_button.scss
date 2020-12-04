@@ -1,0 +1,35 @@
+.c-btn {
+  padding: 10px 40px 10px 40px;
+  font-weight: 600;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.c-btn-normal {
+  @include btn-theme($color-gray, $color-lightgray);
+}
+.c-btn-default {
+  @include btn-theme($color-gray, $color-white);
+  color: $color-darkgray;
+}
+.c-btn-primary {
+  @include btn-theme($aqua-dark, $aqua-light);
+}
+.c-btn-success {
+  @include btn-theme($grass-dark, $grass-light);
+}
+.c-btn-info {
+  @include btn-theme($mint-dark, $mint-light);
+}
+.c-btn-warning {
+  @include btn-theme($sunflower-dark, $sunflower-light);
+}
+.c-btn-danger {
+  @include btn-theme($grapefruit-dark, $grapefruit-light);
+}
+.c-btn-link {
+  @include link-theme($color-darkgray);
+}
