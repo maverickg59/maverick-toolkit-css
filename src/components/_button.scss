@@ -1,11 +1,12 @@
 .c-btn {
-  padding: 10px 40px 10px 40px;
-  font-weight: 600;
-  margin: 10px;
+  padding: $global-unit-size-small-medium $global-unit-size-large
+    $global-unit-size-small-medium $global-unit-size-large;
+  font-weight: 900;
   text-align: center;
-  display: inline-block;
   font-size: 16px;
-  border-radius: 4px;
+}
+.c-btn:hover {
+  text-decoration: none;
 }
 
 .c-btn-normal {
@@ -30,6 +31,9 @@
 .c-btn-danger {
   @include btn-theme($grapefruit-dark, $grapefruit-light);
 }
-.c-btn-link {
+.c-btn-link-dark {
   @include link-theme($color-darkgray);
+}
+.c-btn-link-light {
+  @include link-theme($color-white);
 }
