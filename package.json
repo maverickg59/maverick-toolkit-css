@@ -1,6 +1,6 @@
 {
   "name": "maverick-toolkit-css",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "src/_all.scss",
   "author": "Christopher White <christopher.evan.white88@gmail.com> (https://chriswhite.rocks)",
   "license": "MIT"
