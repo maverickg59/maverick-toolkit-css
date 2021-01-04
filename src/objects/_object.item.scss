@@ -1,0 +1,19 @@
+// item | child object | - a content container that must be a child of a row
+.o-row__item {
+  flex: 1;
+  min-height: 1px;
+  width: 100%;
+}
+.o-row__item--shrink {
+  flex: 0 0 auto;
+  width: auto;
+}
+@for $i from 1 through 12 {
+  $order-index: 1 * $i;
+  .o-order-#{$i} {
+    order: $order-index;
+  }
+}
+
+// TODO
+//  - gutters

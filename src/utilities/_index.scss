@@ -1,7 +1,6 @@
-@import './variables/index';
+// these rulesets applied at the component-level define the state properties of html elements and components and use the prefix 'u'
 @import 'borders';
-@import 'grid';
 @import 'headings';
 @import 'margins';
 @import 'padding';
-@import 'layout';
+@import 'text.modifiers';

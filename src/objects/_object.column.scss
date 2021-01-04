@@ -1,0 +1,10 @@
+// column - a vertical content container that must be a child of an item (a column cannot be the child of a row)
+.o-col {
+  display: flex;
+}
+.o-col--standard {
+  flex-direction: column;
+}
+.o-col--reverse {
+  flex-direction: column-reverse;
+}

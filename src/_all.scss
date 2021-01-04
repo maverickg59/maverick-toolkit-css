@@ -1,17 +1,20 @@
-@import './utilities/index';
-@import './mixins/index';
-@import './components/index';
+// settings
+@import './settings/index';
 
-ul {
-  list-style-type: none;
-  padding: 0px 0px 0px 0px;
-}
-li {
-  padding: 0px 10px 0px 10px;
-}
-li:last-of-type {
-  padding: 0px 20px 0px 10px;
-}
-a {
-  text-decoration: none;
-}
+// tools
+@import './tools/index';
+
+// generics
+@import './generics/index';
+
+// elements
+@import './elements/index';
+
+// objects
+@import './objects/index';
+
+// utilities
+@import './utilities/index';
+
+// components
+@import './components/index';

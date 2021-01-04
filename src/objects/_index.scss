@@ -1,0 +1,14 @@
+// these rulesets applied at the object-level define the structural properties of an object and use the prefix 'o'
+
+// Three major structural objects exist - row, item, and column
+
+// row | parent object | - a horizontal container that accepts an item(s) as child(ren)
+// item | child object | - a content container that must be a child of a row
+// column | child object | - a vertical content container that must be a child of an item (a column cannot be the child of a row)
+
+@import 'object.align';
+@import 'object.column';
+@import 'object.item';
+@import 'object.justify';
+@import 'object.row';
+@import 'object.wrap';

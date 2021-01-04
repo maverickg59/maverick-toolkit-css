@@ -1,0 +1,35 @@
+// align items
+.o-align__item--start {
+  align-items: flex-start;
+}
+.o-align__item--end {
+  align-items: flex-end;
+}
+.o-align__item--center {
+  align-items: center;
+}
+.o-align__item--stretch {
+  align-items: stretch;
+}
+.o-align__item--baseline {
+  align-items: baseline;
+}
+
+// align content - This property only takes effect on multi-line flexible containers where flex-flow is set to either wrap or wrap-reverse.
+// A single-line flexible container (i.e. where flex-flow is set to its default value, no-wrap) will not reflect align-content.
+
+.o-align__content--start {
+  align-content: flex-start;
+}
+.o-align__content--end {
+  align-content: flex-end;
+}
+.o-align__content--center {
+  align-content: center;
+}
+.o-align__content--stretch {
+  align-content: stretch;
+}
+.o-align__content--baseline {
+  align-content: baseline;
+}
