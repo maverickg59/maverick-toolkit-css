@@ -9,31 +9,31 @@
   text-decoration: none;
 }
 
-.c-btn-normal {
+.c-btn--normal {
   @include btn-theme($color-gray, $color-lightgray);
 }
-.c-btn-default {
+.c-btn--default {
   @include btn-theme($color-gray, $color-white);
   color: $color-darkgray;
 }
-.c-btn-primary {
+.c-btn--primary {
   @include btn-theme($aqua-dark, $aqua-light);
 }
-.c-btn-success {
+.c-btn--success {
   @include btn-theme($grass-dark, $grass-light);
 }
-.c-btn-info {
+.c-btn--info {
   @include btn-theme($mint-dark, $mint-light);
 }
-.c-btn-warning {
+.c-btn--warning {
   @include btn-theme($sunflower-dark, $sunflower-light);
 }
-.c-btn-danger {
+.c-btn--danger {
   @include btn-theme($grapefruit-dark, $grapefruit-light);
 }
-.c-btn-link-dark {
+.c-btn--link-dark {
   @include link-theme($color-darkgray);
 }
-.c-btn-link-light {
+.c-btn--link-light {
   @include link-theme($color-white);
 }
