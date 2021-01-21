@@ -1,27 +1,21 @@
-ul {
-  list-style: none;
-}
-
-p {
-  margin: 0px;
-}
-
 .c-paginator__block--active {
-  background-color: rgb(255, 0, 157);
+  background-color: $color-darkgray;
 }
 
 .c-paginator__block {
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 0px;
+  width: 50px;
   &:focus,
   &:hover {
-    background-color: rgb(255, 0, 157);
+    background-color: $color-darkgray;
   }
 }
 
 .c-paginator__arrow-block {
-  &:active {
-    background-color: rgb(255, 0, 157);
-  }
-  &:hover {
-    border-color: rgb(255, 0, 157);
-  }
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 0px;
+  width: 50px;
 }
