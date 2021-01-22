@@ -5,8 +5,8 @@
   border: 2px solid transparent;
   min-width: 80px;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 900;
+  font-size: 18px;
   outline: none;
   text-align: center;
   padding: 12px 24px 12px 24px;
@@ -18,17 +18,16 @@
 }
 
 @mixin link-theme($dark) {
-  @include transition(0.1s ease-in-out);
+  // @include transition(0.1s ease-in-out);
   color: $dark;
   border: 1px solid transparent;
   min-width: 80px;
   text-decoration: none;
-  font-weight: 900;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   padding: 12px 24px 12px 24px;
   &:hover,
   &:focus {
-    border: 1px solid $dark;
+    text-decoration: underline;
   }
 }
