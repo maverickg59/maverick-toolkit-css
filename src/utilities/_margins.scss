@@ -15,7 +15,7 @@
   margin: $global-unit-size-giant;
 }
 .u-m-none {
-  margin: 0px;
+  margin: $global-unit-size-zero;
 }
 // margin top
 .u-m-t-xs {
@@ -34,7 +34,7 @@
   margin-top: $global-unit-size-giant;
 }
 .u-m-t-none {
-  margin-top: 0px;
+  margin-top: $global-unit-size-zero;
 }
 // margin right
 .u-m-r-xs {
@@ -53,7 +53,7 @@
   margin-right: $global-unit-size-giant;
 }
 .u-m-r-none {
-  margin-right: 0px;
+  margin-right: $global-unit-size-zero;
 }
 // margin bottom
 .u-m-b-xs {
@@ -72,7 +72,7 @@
   margin-bottom: $global-unit-size-giant;
 }
 .u-m-b-none {
-  margin-bottom: 0px;
+  margin-bottom: $global-unit-size-zero;
 }
 // margin left
 .u-m-l-xs {
@@ -91,7 +91,7 @@
   margin-left: $global-unit-size-giant;
 }
 .u-m-l-none {
-  margin-left: 0px;
+  margin-left: $global-unit-size-zero;
 }
 // margin sides
 .u-m-s-xs {
@@ -115,6 +115,6 @@
   margin-right: $global-unit-size-giant;
 }
 .u-m-s-none {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: $global-unit-size-zero;
+  margin-right: $global-unit-size-zero;
 }

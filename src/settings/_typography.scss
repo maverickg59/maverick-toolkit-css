@@ -1,30 +1,19 @@
-// core typography related styling
-
-// Font Sizing
-// interactive/mobile page sizing
-$global-font-size-header: 28px;
-$global-font-size-body: 18px;
-$global-font-size-secondary: 15px;
-$global-font-size-tertiary: 12px;
-
-// blog page sizing
-$global-blog-font-size-header: 30px;
-$global-blog-font-size-body: 20px;
-$global-blog-font-size-secondary: 17px;
-$global-blog-font-size-tertiary: 15px;
-
-// global header sizing
-$global-header-font-size-1: 36px;
-$global-header-font-size-2: 34px;
-$global-header-font-size-3: 32px;
-$global-header-font-size-4: 30px;
-$global-header-font-size-5: 28px;
-$global-header-font-size-6: 26px;
-
-// font-family
+// FONT-FAMILY IMPORTS & VARIABLES
+//
+// imports Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Lustria&display=swap');
+//
+// header font-family
 $lato: 'Lato', sans-serif;
+//
+// body font-family
 $lustria: 'Lustria', serif;
+
+// VERTICAL RHYTHM (& BLUES) RULESETS
+//
+html {
+  font-size: $global-font-size-body;
+}
 h1,
 h2,
 h3,
@@ -33,13 +22,11 @@ h5,
 h6 {
   font-family: $lustria;
   font-weight: 400;
+  line-height: $global-line-height;
 }
 body {
+  font-size: $global-font-size-body;
   font-family: $lato;
   font-weight: 400;
-  font-size: $global-font-size-body;
+  line-height: $global-line-height;
 }
-
-// line-height
-// baseline
-// letter spacing

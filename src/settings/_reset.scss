@@ -1,7 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 ul {
   list-style: none;
 }
 
-p {
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0px;
+}
+
+ul {
+  padding: 0px;
 }

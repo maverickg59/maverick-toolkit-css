@@ -1,6 +1,52 @@
-// global unit sizing
-$global-unit-size-tiny: 6px;
-$global-unit-size-small: 12px;
-$global-unit-size-medium: 24px;
-$global-unit-size-large: 48px;
-$global-unit-size-giant: 64px;
+// FONT-SIZING VARIABLES
+//
+// interactive/mobile font sizing
+$global-font-size-header: 1.333em; // 24px
+$global-font-size-body: 1.125em; // 18px
+$global-font-size-secondary: 0.938em; // 15px
+$global-font-size-tertiary: 0.75em; // 12px
+//
+// blog page font sizing
+$global-blog-font-size-header: 1.556em; // 28px
+$global-blog-font-size-body: 1.25em; // 20px
+$global-blog-font-size-secondary: 1.063em; // 17px
+$global-blog-font-size-tertiary: 0.875em; // 14px
+//
+// global header font sizing
+$global-header-font-size-1: 2.444rem; // 44px
+$global-header-font-size-2: 2.222rem; // 40px
+$global-header-font-size-3: 2rem; // 36px
+$global-header-font-size-4: 1.778rem; // 32px
+$global-header-font-size-5: 1.556rem; // 28px
+$global-header-font-size-6: 1.333rem; // 24px
+
+// VERTICAL RHYTHM (& BLUES) VARIABLES
+//
+$global-line-height: 1.778em;
+$global-grid-multiplier: 4px;
+$global-vertical-rhythm-unit: 28px; // 28px = 18px (body font) * 1.55
+$global-vertical-rhythm-unit-2: calc(
+  2 * #{$global-vertical-rhythm-unit}
+); // 56px
+$global-vertical-rhythm-unit-3: calc(
+  3 * #{$global-vertical-rhythm-unit}
+); // 84px
+$global-vertical-rhythm-unit-4: calc(
+  4 * #{$global-vertical-rhythm-unit}
+); // 112px
+$global-vertical-rhythm-unit-5: calc(
+  5 * #{$global-vertical-rhythm-unit}
+); // 140px
+
+// GLOBAL UNIT SIZING
+//
+// spacing units
+$global-unit-size-zero: 0px;
+$global-unit-size-tiny: $global-grid-multiplier; // 4px
+$global-unit-size-small: calc(2 * #{$global-grid-multiplier}); // 8px
+$global-unit-size-medium: calc(4 * #{$global-grid-multiplier}); // 16px
+$global-unit-size-large: calc(8 * #{$global-grid-multiplier}); // 32px
+$global-unit-size-giant: calc(16 * #{$global-grid-multiplier}); // 64px
+//
+// border size
+$global-border-size: 1px;

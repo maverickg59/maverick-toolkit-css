@@ -1,5 +1,7 @@
 // these rulesets applied at the component-level define the state properties of a component and use the prefix 'c'
 @import './button';
+@import './header';
+@import './icon';
 @import './input';
 @import './paginator';
-@import './icon';
+@import './sidebar';

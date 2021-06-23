@@ -1,17 +1,17 @@
 .u-border {
-  border: 1px solid $color-darkgray;
+  border: $global-border-size solid $global-border-color;
 }
 .u-border-t {
-  border-top: 1px solid $color-darkgray;
+  border-top: $global-border-size solid $global-border-color;
 }
 .u-border-r {
-  border-right: 1px solid $color-darkgray;
+  border-right: $global-border-size solid $global-border-color;
 }
 .u-border-b {
-  border-bottom: 1px solid $color-darkgray;
+  border-bottom: $global-border-size solid $global-border-color;
 }
 .u-border-l {
-  border-left: 1px solid $color-darkgray;
+  border-left: $global-border-size solid $global-border-color;
 }
 .u-border-radius {
   border: 0.5px solid transparent;
