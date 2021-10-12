@@ -1,3 +1,4 @@
+// justify items
 .o-justify--start {
   justify-content: flex-start;
 }
@@ -15,4 +16,18 @@
 }
 .o-justify--evenly {
   justify-content: space-around;
+}
+
+// justify self
+.o-justify-self--start {
+  margin-right: auto;
+}
+
+.o-justify-self--end {
+  margin-left: auto;
+}
+
+.o-justify-self--center {
+  margin-left: auto;
+  margin-right: auto;
 }
